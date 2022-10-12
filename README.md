@@ -1,6 +1,6 @@
 # Cloud-init on vSphere with Terraform
 ## Introduction
-This tool is used to configure a cluster of VMs on vSphere with Terraform by leveraging Linux Cloud Images (ova) and [Cloud-init](https://cloud-init.io/). This tool focuses on provisioning the infrastructure and adding users accesses (ssh & password). Once the cluster is up and running, other deployment automation tools like [Ansible](https://www.ansible.com/) can be used to further configure the cluster. 
+This tool is used to configure a cluster of VMs on vSphere with Terraform by leveraging Linux Cloud Images (ova) and [Cloud-init](https://cloud-init.io/). This tool focuses on provisioning the infrastructure and adding users accesses (ssh with public key & password). Once the cluster is up and running, other deployment automation tools like [Ansible](https://www.ansible.com/) can be used to further configure the cluster. 
 
 The following Linux Cloud Images have been tested:
 - Ubuntu 18.04
