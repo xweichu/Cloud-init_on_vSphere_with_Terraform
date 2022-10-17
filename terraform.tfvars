@@ -27,12 +27,12 @@ mem_size = 32768
 disk_size = 256
 
 # Example using two network interfaces per vm, you may configure as many as network interfaces for the VM.
-networks = [{name="wdc-vds01-vm-b", ovf_mapping="eth0"}, {name="wdc-vds01-vm-c", ovf_mapping="eth1"}]
+networks = [{name="wdc-vds01-vm-c", ovf_mapping="eth0"}, {name="wdc-vds01-vm-b", ovf_mapping="eth1"}]
 ips = [
-  # ips for vm_1, 172.16.20.155 is for wdc-vds01-vm-b, and 172.16.22.155 is for wdc-vds01-vm-b
-  [{ipv4_address="172.16.20.155",ipv4_netmask="23"}, {ipv4_address="172.16.22.155",ipv4_netmask="23"}],
-  # ips for vm_2, 172.16.20.156 is for wdc-vds01-vm-b, and 172.16.22.156 is for wdc-vds01-vm-b
-  [{ipv4_address="172.16.20.156",ipv4_netmask="23"}, {ipv4_address="172.16.22.156",ipv4_netmask="23"}]
+  # ips for vm_1, 172.16.22.155 is for wdc-vds01-vm-c, and 172.16.20.155 is for wdc-vds01-vm-b
+  [{ipv4_address="172.16.22.155",ipv4_netmask="23"}, {ipv4_address="172.16.20.155",ipv4_netmask="23"}],
+  # ips for vm_2, 172.16.22.156 is for wdc-vds01-vm-c, and 172.16.20.156 is for wdc-vds01-vm-b
+  [{ipv4_address="172.16.22.156",ipv4_netmask="23"}, {ipv4_address="172.16.20.156",ipv4_netmask="23"}]
 ]
 
 # Example using one network interfaces per vm.
