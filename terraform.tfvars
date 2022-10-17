@@ -11,11 +11,14 @@ content_library = "cloud_init_lib"
 # vm cloud init image, different versions of ubuntu cloud images can be found here:https://cloud-images.ubuntu.com/
 # the following images were tested.
 # Ubuntu 18.04
-# template_url = "https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova"
-# Ubuntu 20.04
 # template_url = "https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.ova"
+
+# Ubuntu 20.04
+# template_url = "https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.ova"
+
 # Ubuntu 22.04
 # template_url = "https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.ova"
+
 # Ubuntu 22.10
 template_url = "https://cloud-images.ubuntu.com/kinetic/current/kinetic-server-cloudimg-amd64.ova"
 
